@@ -73,3 +73,7 @@ jobs:
 ```
 
 `pytest` does not call the network. The live pass is `monitor.py --once`.
+
+---
+
+Copyright 2026 [Crawlbase](https://crawlbase.com/)
