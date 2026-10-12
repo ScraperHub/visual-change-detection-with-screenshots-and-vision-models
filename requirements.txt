@@ -1,0 +1,8 @@
+crawlbase==1.1.0
+requests>=2.31
+Pillow>=10
+scikit-image>=0.22
+numpy>=1.26
+opencv-python-headless>=4.9
+openai>=1.40
+pytest>=8

@@ -1,0 +1,21 @@
+# Paths are resolved next to this file.
+compare_width = 1280
+ssim_delta = 0.04
+area_delta = 0.03
+pixel_threshold = 24
+rotate_after_n = 5
+page_wait = 2000
+scroll_interval = 10
+timeout = 240
+
+[[targets]]
+url = "https://news.ycombinator.com"
+devices = ["desktop", "mobile"]
+css_click_selector = ""
+extract_selector = ""
+
+[[targets]]
+url = "https://en.wikipedia.org/wiki/Python_(programming_language)"
+devices = ["desktop"]
+css_click_selector = ".mw-cookiebanner-dismiss"
+extract_selector = "h1"
